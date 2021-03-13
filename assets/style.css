@@ -1,0 +1,33 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* container */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* layouts */
+.column-6 {
+  width: calc(100% / 12 * 6);
+  float: left;
+}
+
+/* clearfix */
+.row::after,
+.row::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  height: 200px; /* optional */
+  margin: 10px;
+}
