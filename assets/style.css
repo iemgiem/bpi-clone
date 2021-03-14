@@ -231,6 +231,10 @@
   font-weight: 700;
 }
 
+.item-right {
+  text-align: right;
+}
+
 .btn-r {
   text-decoration: none;
   color: #fff;
@@ -242,9 +246,19 @@
   font-size: 1rem;
   cursor: pointer;
   font-weight: 600;
-  text-align: center;
   white-space: nowrap;
 }
+
+/* navigation section*/
+.nav-icon {
+
+  height: 45px;
+  width: 86px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 
 
 /* hero section */
