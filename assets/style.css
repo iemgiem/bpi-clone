@@ -162,6 +162,7 @@
 .top-links li {
   display: inline-block;
   list-style: none;
+  padding: .4375rem;
 }
 
 .top-links li a {
@@ -173,3 +174,44 @@
   font-weight: 700;
 }
 
+.btn-r {
+  text-decoration: none;
+  color: #fff;
+  background-color: #b11116;
+  border-color: #b11116;
+  padding: .4375rem 2rem;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+/* hero section */
+
+.hero {
+  /*height: 500px;*/
+  background: url('https://www.bpi.com.ph/content/atom/33f50d91-c898-4666-8a69-e09d571c5dcc/content/Personal/Homepage%20Refresh/2021/Feb%201%202021/hero_secondary_february_2021_homepage_banner.gif?id=b44c1d6b-5647-4dc4-b420-6b10fad6d5ed');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.hero-h1 {
+  color: #fff;
+  font-size: 64px;
+  /* width: 75%; */
+  margin-top: 0;
+  margin-bottom: 16px;
+  letter-spacing: .04rem;
+  line-height: 64px;
+}
+
+.hero-padding {
+  /* padding: 5rem 0; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
